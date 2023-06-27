@@ -17,6 +17,8 @@
 
 body{
     background-color: var(--bool-primary);
+    font-family: 'Mulish', sans-serif;
+
 }
 
 .logo_image{
@@ -28,7 +30,6 @@ h1{
     display: inline-block;
     vertical-align: top;
     font-size: 40px;
-    font-family: 'Mulish', sans-serif;
     font-weight: 800;
 }
 
@@ -38,6 +39,7 @@ h1{
     background-color: var(--bool-secondary);
     margin: 40px auto;
     border-radius: 5px 5px 0 0;
+    margin-bottom: 1px;
 
 }
 
@@ -55,5 +57,34 @@ h1{
     font-size: 20px;
     border-radius: 5px;
     border-color: 1px solid black;
+}
+
+.container2{
+    width: 70%;
+    height: 80%;
+    background-color: var(--bool-secondary);
+    margin: 40px auto;
+    margin-top: 1px;
+    border-radius: 0 0 5px 5px;
+}
+
+h2, p{
+    margin-left: 40px;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+.editorial{
+    color: #ffffff;
+    background-color: var(--bool-button-editorial);
+    border-radius: 20px;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
 }
 
