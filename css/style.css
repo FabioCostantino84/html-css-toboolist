@@ -125,3 +125,27 @@ p{
     padding: 4px;
 }
 
+.website{
+    color: #ffffff;
+    background-color: var(--bool-website);
+    border-radius: 20px;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
+.sales{
+    color: #ffffff;
+    background-color: var(--bool-sales);
+    border-radius: 20px;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
