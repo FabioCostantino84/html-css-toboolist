@@ -4,8 +4,25 @@
     box-sizing: border-box;
 }
 
+:root{
+    --bool-primary: #f6f8f9;
+    --bool-secondary: #ffffff;
+    --bool-bottom-editorial: #45abea;
+    --bool-goals: #9c72e4;
+    --bool-recruiting: #64c0a9;
+    --bool-mobile: #f29e33;
+    --bool-website: #d863a1;
+    --bool-sales: #b0c926;
+}
+
+body{
+    background-color: var(--bool-primary);
+}
+
+
 .logo_image{
     padding: 1rem 1.5rem 1rem;
+    background-color: var(--bool-secondary);
 }
 
 h1{
@@ -15,3 +32,4 @@ h1{
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
 }
+
