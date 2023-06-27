@@ -72,13 +72,50 @@ h2, p{
     margin-left: 40px;
 }
 
-h2{
-    margin-top: 40px;
+p{
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 .editorial{
     color: #ffffff;
     background-color: var(--bool-button-editorial);
+    border-radius: 20px;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
+.goals{
+    color: #ffffff;
+    background-color: var(--bool-goals);
+    border-radius: 20px;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
+.recruiting{
+    color: #ffffff;
+    background-color: var(--bool-recruiting);
+    border-radius: 20px;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
+.mobile{
+    color: #ffffff;
+    background-color: var(--bool-mobile);
     border-radius: 20px;
     font-size: 10px;
     width: 70px;
